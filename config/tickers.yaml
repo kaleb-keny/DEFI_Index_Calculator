@@ -1,0 +1,60 @@
+uni: 
+    id:  'uniswap'
+    concentration:  0.12
+aave:  
+    id:  'aave'
+    concentration:  0.11
+snx:  
+    id:  'havven'
+    concentration:  0.10
+mkr:  
+    id:  'maker'
+    concentration:  0.10
+rune: 
+    id:  'thorchain'
+    concentration:  0.10
+luna:
+    id:  'terra-luna'
+    concentration:  0.05
+comp:
+    id: 'compound-governance-token'
+    concentration:  0.05
+sushi:
+    id: 'sushi'
+    concentration:  0.05
+yfi:
+    id: 'yearn-finance'
+    concentration:  0.05
+bnt:
+    id: 'bancor'
+    concentration:  0.04
+uma:
+    id: 'uma'
+    concentration:  0.04
+zrx:
+    id: '0x'
+    concentration:  0.04
+crv:
+    id: 'curve-dao-token'
+    concentration:  0.025
+1inch:
+    id: '1inch'
+    concentration:  0.025
+ren:
+    id: 'republic-protocol'
+    concentration:  0.025
+bal:
+    id: 'balancer'
+    concentration:  0.025
+alpha:
+    id: 'alpha-finance'
+    concentration:  0.020
+knc:
+    id: 'kyber-network-crystal'
+    concentration:  0.020
+cream:
+    id: 'cream-2'
+    concentration:  0.010
+BOND:
+    id: 'barnbridge'
+    concentration:  0.0050

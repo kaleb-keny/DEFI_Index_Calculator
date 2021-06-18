@@ -1,0 +1,38 @@
+name: index
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2021.5.30=h5b45459_0
+  - certifi=2021.5.30=py37h03978a9_0
+  - intel-openmp=2021.2.0=h57928b3_616
+  - libblas=3.9.0=9_mkl
+  - libcblas=3.9.0=9_mkl
+  - liblapack=3.9.0=9_mkl
+  - mkl=2021.2.0=hb70f87d_389
+  - numpy=1.20.3=py37hcbcd69c_1
+  - openssl=1.1.1k=h8ffe710_0
+  - pandas=1.2.4=py37h90003fb_0
+  - pip=21.1.2=pyhd8ed1ab_0
+  - pyaml=20.4.0=pyh9f0ad1d_0
+  - python=3.7.10=h7840368_100_cpython
+  - python-dateutil=2.8.1=py_0
+  - python_abi=3.7=1_cp37m
+  - pytz=2021.1=pyhd8ed1ab_0
+  - pyyaml=5.4.1=py37hcc03f2d_0
+  - setuptools=49.6.0=py37h03978a9_3
+  - six=1.16.0=pyh6c4a22f_0
+  - sqlite=3.35.5=h8ffe710_0
+  - tbb=2021.2.0=h2d74725_0
+  - vc=14.2=hb210afc_4
+  - vs2015_runtime=14.28.29325=h5e1d092_4
+  - wheel=0.36.2=pyhd3deb0d_0
+  - wincertstore=0.2=py37h03978a9_1006
+  - yaml=0.2.5=he774522_0
+  - pip:
+    - chardet==4.0.0
+    - idna==2.10
+    - pycoingecko==2.2.0
+    - requests==2.25.1
+    - urllib3==1.26.5
+prefix: C:\kaleb\miniconda\envs\index
