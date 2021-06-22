@@ -43,8 +43,11 @@ uni:
     id:  'uniswap'
     concentration:  0.12
 ```
+
 `uni`: just  an arbirtrary identifier, ticker could be used
+
 `id`: is the id as per coingecko, please refer to [api](https://www.coingecko.com/en/api)
+
 `concentration`: is usually prepared by the authors of the sccp
 
 
