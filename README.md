@@ -28,6 +28,13 @@ conda env create --name defi --file=env\environment.yml
 ```
 
 ## Running the model
+### Activating imported enviroment
+
+```
+conda activate defi
+```
+
+
 ### Preparing the yaml file
 
 The following command would run the model
