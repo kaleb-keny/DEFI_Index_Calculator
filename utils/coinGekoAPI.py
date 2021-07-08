@@ -34,10 +34,13 @@ class geckoAPI():
         url  = 'https://api.coingecko.com/api/v3/coins/list?include_platform=true'
         coinList = requests.get(url).json()
         #Convert to df
-        df=pd.DataFrame(coinList)
-        df = df[df.symbol.str.contains('comp')]
-        print(df)
-        
+        df          = pd.DataFrame(coinList)
+        df          = df[df.symbol.str.contains(ticker)]
+        df["cap"]   = df["id"].apply(self.getTokenDataFromTicker)
+        df["price"] = df.apply(lambda x: x["cap"][x["id"]]["usd"],axis=1)
+        df["cap"]   = df.apply(lambda x: x["cap"][x["id"]]["usd_market_cap"],axis=1)
+        df          = df[['id','symbol','name',"cap","price"]]
+        print(df.to_markdown(index=False))
                 
 #%%
 if __name__ == '__main__':

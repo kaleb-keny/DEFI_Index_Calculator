@@ -35,13 +35,14 @@ conda activate defi
 ```
 
 
-### Preparing the yaml file
+### Running the model
 
-The following command would run the model
+The following command would compute the weights
 
 ```
-python main.py
+python main.py -r weights
 ```
+
 
 ### Yaml file
 In order to produce the output correctly when the defi composition changes, the yaml file `config\tickers.yaml` needs to be properly populated:
@@ -57,6 +58,11 @@ uni:
 
 `concentration`: is usually prepared by the authors of the sccp
 
+A list of possible identifiers, `id`, can be printed out  by running the below on a ticker:
+
+```
+python main.py -r ticker --t comp
+```
 
 ## Authors
 
