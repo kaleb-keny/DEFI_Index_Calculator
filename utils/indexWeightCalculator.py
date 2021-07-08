@@ -20,23 +20,8 @@ class calculator(geckoAPI):
                        axis=1)
         df.columns = ['price','cap','name','concentration']
         
-        df["value"] = df["concentration"] * 1000
-        df["units"] = df["value"] / df["price"]
-        
-        #get current defi index price
-        previousDefiPrice = self.getDefiIndexPrice()
-        print(f"existing sDEFI price is {previousDefiPrice}")
-
-
-        #compute denominator that keeps the price constant
-        denominator =  df["units"].multiply(df["price"]).sum() / previousDefiPrice
-        print(f"denominator used is {denominator}")
+        df["units"] = df["concentration"] * 1000 / df["price"]
                 
-        df["units_den_adjusted"] = df["units"] / denominator
-        
-        newDefiPrice = df["units_den_adjusted"].multiply(df["price"]).sum()
-        print(f"new sDEFI price is {newDefiPrice}")
-
         df.to_csv(r'output\output.csv')
             
         

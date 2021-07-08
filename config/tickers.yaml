@@ -1,60 +1,28 @@
-uni: 
-    id:  'uniswap'
-    concentration:  0.15
-aave:  
-    id:  'aave'
-    concentration:  0.11
-luna:
-    id:  'terra-luna'
-    concentration:  0.10
-mkr:  
-    id:  'maker'
-    concentration:  0.09
-snx:  
-    id:  'havven'
-    concentration:  0.08
-rune: 
-    id:  'thorchain'
-    concentration:  0.08
-sushi:
-    id: 'sushi'
-    concentration:  0.07
-comp:
-    id: 'compound-governance-token'
-    concentration:  0.07
-yfi:
-    id: 'yearn-finance'
-    concentration:  0.06
-bnt:
-    id: 'bancor'
-    concentration:  0.03
-uma:
-    id: 'uma'
-    concentration:  0.03
-zrx:
-    id: '0x'
-    concentration:  0.025
-crv:
-    id: 'curve-dao-token'
-    concentration:  0.025
-1inch:
-    id: '1inch'
-    concentration:  0.020
-ren:
-    id: 'republic-protocol'
-    concentration:  0.020
-bal:
-    id: 'balancer'
-    concentration:  0.01
-knc:
-    id: 'kyber-network-crystal'
-    concentration:  0.01
-BOND:
-    id: 'barnbridge'
-    concentration:  0.01
-cream:
-    id: 'cream-2'
-    concentration:  0.005
-alpha:
-    id: 'alpha-finance'
-    concentration:  0.005
+bnb: 
+    id:  'binancecoin'
+    concentration:  0.307
+okb:  
+    id:  'okb'
+    concentration:  0.0961
+cro:
+    id:  'crypto-com-chain'
+    concentration:  0.0952
+cel:  
+    id:  'celsius-degree-token'
+    concentration:  0.0928
+ftt:  
+    id:  'ftx-token'
+    concentration:  0.0898
+ht:
+    id: 'huobi-token'
+    concentration:  0.0846
+leo: 
+    id:  'leo-token'
+    concentration:  0.0796
+nexo:
+    id: 'nexo'
+    concentration:  0.0780
+kcs:
+    id: 'kucoin-shares'
+    concentration:  0.0769
+
